@@ -63,7 +63,7 @@ options = Options()
 #     "download.default_directory": download_dir,  # ダウンロード先のディレクトリ
 #     "savefile.default_directory": savefile_dir,  # 印刷保存先のディレクトリ
 # }
-# options.add_experimental_option("prefs", "")  # ファイルと印刷保存先を変更
+# options.add_experimental_option("prefs", prefs)  # ファイルと印刷保存先を変更
 
 # options.add_experimental_option("detach", True)  # プログラムが終わってもブラウザを起動したままにする
 # options.add_argument("--kiosk-printing")  # 印刷ダイアログを表示せずそのまま印刷する
